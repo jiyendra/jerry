@@ -1,0 +1,121 @@
+/*=============== agency_testimonial_area css ==============*/
+  .agency_testimonial_info {
+    position: relative;
+  }
+  
+  .agency_testimonial_info .testimonial_slider {
+    max-width: 770px;
+    border-radius: 6px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(12, 0, 46, 0.06);
+    box-shadow: 0px 20px 40px 0px rgba(12, 0, 46, 0.06);
+    padding: 50px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item {
+    z-index: 0;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item .author_img img {
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item .author_description {
+    margin-top: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item .author_description h4 {
+    margin-bottom: 5px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item .author_description h6 {
+    font: 400 14px/26px "Poppins", sans-serif;
+    color: #959cb1;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .testimonial_item p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .active {
+    position: relative;
+    z-index: 9;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .owl-dots {
+    text-align: center;
+    bottom: 0px;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin: 0px 2px;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    background: #cfcfe7;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 0px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot.active {
+    border-color: #5e2ced;
+  }
+  
+  .agency_testimonial_info .testimonial_slider .owl-dots .owl-dot.active span {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .agency_testimonial_info .owl-prev, .agency_testimonial_info .owl-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #f3f5f8;
+    background-color: white;
+    -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.06);
+    box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.06);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .agency_testimonial_info .owl-prev:hover, .agency_testimonial_info .owl-next:hover {
+    color: #fff;
+    background: #5e2ced;
+  }
+  
+  .agency_testimonial_info .owl-next {
+    right: 0;
+  }

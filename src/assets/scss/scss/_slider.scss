@@ -1,0 +1,71 @@
+/*============== slider_area css ==============*/
+.slider_area{
+    background-image: -moz-linear-gradient( 40deg, rgb(23,134,216) 0%, rgb(0,175,240) 100%);
+    background-image: -webkit-linear-gradient( 40deg, rgb(23,134,216) 0%, rgb(0,175,240) 100%);
+    height: 930px;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    .bottom_shoape{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    .middle_shape{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+.leaf{
+    position: absolute;
+    &.l_left{
+        top: 200px;
+        left: 260px;
+    }
+    &.l_right{
+        right: 0;
+        bottom: 100px;
+    }
+}
+.mobile_img{
+    position: relative;
+    .img{
+        animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92); 
+        animation-name: animateUpDown;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .mobile{
+        z-index: -1;
+        position: relative;
+    }
+    .women_img{
+        top: 245px;
+        right: 160px;
+        z-index: 1;
+    }
+}
+.slider_content{
+    padding-top: 200px;
+    h2,p{
+        color: #fff;
+    }
+}
+
+@keyframes animateUpDown {
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

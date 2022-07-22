@@ -1,0 +1,152 @@
+/*=============== saas_featured_area css ==============*/
+.saas_featured_area {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .square_box {
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top-left-radius: 45px; 
+    opacity: 0.302;
+  }
+  
+  .square_box.box_one {
+    background-image: -moz-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+    width: 382px;
+    height: 382px;
+    bottom: -191px;
+    left: -50px;
+  }
+  
+  .square_box.box_two {
+    background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+    background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+    background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+    width: 235px;
+    height: 235px;
+    bottom: -116px;
+    left: 250px;
+  }
+  
+  .square_box.box_three {
+    /* background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    left: -80px;
+    top: -60px;
+    width: 500px;
+    height: 500px; */
+    border-radius: 45px;
+  }
+  
+  .square_box.box_four {
+    /* background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    left: 150px;
+    top: -25px;
+    width: 550px;
+    height: 550px; */
+    border-radius: 45px;
+  }
+  
+  .saas_featured_info .saas_featured_item {
+    color: #fff;
+    border-radius: 4px;
+    padding: 50px 30px 50px 40px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  
+  .saas_featured_info .saas_featured_item.s_featured_one {
+    background-image: -moz-linear-gradient(40deg, #3c0f73 0%, #bc2280 100%);
+    background-image: -webkit-linear-gradient(40deg, #3c0f73 0%, #bc2280 100%);
+    background-image: -ms-linear-gradient(40deg, #3c0f73 0%, #bc2280 100%);
+  }
+  
+  .saas_featured_info .saas_featured_item.s_featured_two {
+    background-image: -moz-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  }
+  
+  .saas_featured_info .saas_featured_item.s_featured_three {
+    background-image: -moz-linear-gradient(40deg, #411881 0%, #1183ad 100%);
+    background-image: -webkit-linear-gradient(40deg, #411881 0%, #1183ad 100%);
+    background-image: -ms-linear-gradient(40deg, #411881 0%, #1183ad 100%);
+  }
+  
+  .saas_featured_info .saas_featured_item.s_featured_four {
+    background-image: -moz-linear-gradient(40deg, #411881 0%, #9b2bdc 100%);
+    background-image: -webkit-linear-gradient(40deg, #411881 0%, #9b2bdc 100%);
+    background-image: -ms-linear-gradient(40deg, #411881 0%, #9b2bdc 100%);
+  }
+  
+  .saas_featured_info .saas_featured_item h6 {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .saas_featured_info .saas_featured_item p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .saas_featured_info .saas_featured_item:hover {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+  }
+  
+  .saas_featured_info .saas_featured_content p {
+    color: #bdbed6;
+  }
+  
+  .saas_featured_info .f_img_one {
+    margin-left: -100px;
+  }
+  
+  .saas_featured_info .img_border img {
+    border: 4px solid #2a3656;
+    border-radius: 6px;
+  }
+  
+  .saas_featured_info .f_img_two {
+    margin-right: -120px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .saas_featured_info .f_img_two:before {
+    content: "";
+    background-color: #0f1029;
+    position: absolute;
+    width: 420px;
+    height: 100%;
+    right: -50px;
+    top: -55px;
+    z-index: -1;
+  }
+  
+  .saas_featured_info .f_img_two img {
+    border-color: #49436f;
+  }
+  
+  .saas_featured_info .saas_featured_content .saas_banner_btn {
+    padding: 12px 30px;
+  }
+  
+  .saas_featured_info + .saas_featured_info {
+    margin-top: 250px;
+  }

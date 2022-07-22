@@ -1,0 +1,270 @@
+/*============= agency_service_area css =============*/
+.agency_service_area {
+    padding: 135px 0px 140px;
+  }
+  
+  .agency_service_item {
+    margin-bottom: 30px;
+  }
+  
+  .agency_service_item .icon {
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+  
+  .agency_service_item .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .agency_service_item a {
+    font: 400 14px/26px "Poppins", sans-serif;
+    color: #222d39;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: color 0.3s linear 0s;
+    -o-transition: color 0.3s linear 0s;
+    transition: color 0.3s linear 0s;
+  }
+  
+  .agency_service_item a:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #222d39;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: width 0.3s linear 0s;
+    -o-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+  }
+  
+  .agency_service_item p {
+    display: inline-block;
+  }
+  
+  .agency_service_item p i {
+    vertical-align: middle;
+    padding-left: 8px;
+    -webkit-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  
+  .agency_service_item p:hover a {
+    color: #5e2ced;
+  }
+  
+  .agency_service_item p:hover a:before {
+    width: 132%;
+    background: #5e2ced;
+  }
+  
+  .agency_service_item p:hover i {
+    color: #5e2ced;
+    padding-left: 12px;
+  }
+  
+  /*================ prototype_service_info css ==============*/
+  .prototype_service_area_two, .prototype_service_area_three {
+    overflow: hidden;
+  }
+  
+  .prototype_service_info {
+    padding: 150px 0px 175px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .p_service_info {
+    margin-bottom: -90px;
+  }
+  
+  .p_service_item {
+    margin-bottom: 90px;
+  }
+  
+  .p_service_item .icon {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 55px;
+    height: 60px;
+    position: relative;
+    margin: 0px 0px 25px;
+    font-size: 24px;
+    -webkit-border-radius: 50% / 14%;
+    border-radius: 50% / 14%;
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    z-index: 1;
+  }
+  
+  .p_service_item .icon:before {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    content: "";
+    top: 10%;
+    right: -5.5%;
+    bottom: 10%;
+    left: -5%;
+    border: none;
+    -webkit-border-radius: 7% / 50%;
+    border-radius: 7% / 50%;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: none;
+    z-index: -1;
+  }
+  
+  .p_service_item .icon.icon_one {
+    background: #7142f8;
+  }
+  
+  .p_service_item .icon.icon_one:before {
+    background: #7142f8;
+  }
+  
+  .p_service_item .icon.icon_two {
+    background: #5cbd2c;
+  }
+  
+  .p_service_item .icon.icon_two:before {
+    background: #5cbd2c;
+  }
+  
+  .p_service_item .icon.icon_three {
+    background: #f38650;
+  }
+  
+  .p_service_item .icon.icon_three:before {
+    background: #f38650;
+  }
+  
+  .p_service_item .icon.icon_four {
+    background: #ecbf24;
+  }
+  
+  .p_service_item .icon.icon_four:before {
+    background: #ecbf24;
+  }
+  
+  .p_service_item .icon.icon_five {
+    background: #fa4c9a;
+  }
+  
+  .p_service_item .icon.icon_five:before {
+    background: #fa4c9a;
+  }
+  
+  .p_service_item .icon.icon_six {
+    background: #35bfe7;
+  }
+  
+  .p_service_item .icon.icon_six:before {
+    background: #35bfe7;
+  }
+  
+  .p_service_item h5 {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .p_service_item p {
+    font-size: 15px;
+  }
+  
+  .symbols-pulse {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .symbols-pulse > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 23rem;
+    height: 23rem;
+    border-radius: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 221, 246, 0.1)), color-stop(65%, rgba(227, 221, 246, 0.2)), to(rgba(227, 221, 246, 0.1)));
+    background-image: -webkit-linear-gradient(top, rgba(227, 221, 246, 0.1) 0%, rgba(227, 221, 246, 0.2) 65%, rgba(227, 221, 246, 0.1) 100%);
+    background-image: -o-linear-gradient(top, rgba(227, 221, 246, 0.1) 0%, rgba(227, 221, 246, 0.2) 65%, rgba(227, 221, 246, 0.1) 100%);
+    background-image: linear-gradient(-180deg, rgba(227, 221, 246, 0.1) 0%, rgba(227, 221, 246, 0.2) 65%, rgba(227, 221, 246, 0.1) 100%);
+    z-index: -1;
+  }
+  
+  .symbols-pulse .pulse-1 {
+    -webkit-transform: translate(-50%, -50%) scale(0.67);
+    -ms-transform: translate(-50%, -50%) scale(0.67);
+    transform: translate(-50%, -50%) scale(0.67);
+  }
+  
+  .symbols-pulse .pulse-2 {
+    -webkit-transform: translate(-50%, -50%) scale(1.05);
+    -ms-transform: translate(-50%, -50%) scale(1.05);
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  
+  .symbols-pulse .pulse-3 {
+    -webkit-transform: translate(-50%, -50%) scale(1.63);
+    -ms-transform: translate(-50%, -50%) scale(1.63);
+    transform: translate(-50%, -50%) scale(1.63);
+  }
+  
+  .symbols-pulse .pulse-4 {
+    -webkit-transform: translate(-50%, -50%) scale(2.1);
+    -ms-transform: translate(-50%, -50%) scale(2.1);
+    transform: translate(-50%, -50%) scale(2.1);
+  }
+  
+  .symbols-pulse .pulse-x {
+    will-change: transform;
+    -webkit-animation: pulsate 3s infinite;
+    animation: pulsate 3s infinite;
+  }
+  
+  @-webkit-keyframes pulsate {
+    0% {
+      opacity: 1;
+      -webkit-transform: translate(-50%, -50%) scale(0.5);
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translate(-50%, -50%) scale(4);
+      transform: translate(-50%, -50%) scale(4);
+    }
+  }
+  
+  @keyframes pulsate {
+    0% {
+      opacity: 1;
+      -webkit-transform: translate(-50%, -50%) scale(0.5);
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translate(-50%, -50%) scale(4);
+      transform: translate(-50%, -50%) scale(4);
+    }
+  }

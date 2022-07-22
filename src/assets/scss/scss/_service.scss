@@ -1,0 +1,194 @@
+/*============= agency_service_area css =============*/
+.agency_service_area{
+    padding: 135px 0px 140px;
+}
+.agency_service_item{
+    margin-bottom: 30px;
+    .icon{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    } 
+    a{
+        font: 400 14px/26px $pop;
+        color: #222d39;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        transition: color 0.3s linear 0s;
+        &:before{
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: #222d39;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            z-index: -1;
+            transition: width 0.3s linear 0s;
+        }
+    }
+    p{
+        display: inline-block;
+        i{
+            vertical-align: middle;
+            padding-left: 8px;
+            transition: all 0.3s linear 0s;
+        }
+        &:hover{
+            a{
+                color: #5e2ced;
+                &:before{
+                    width: 132%;
+                    background:#5e2ced;
+                }
+            }
+            i{
+                color: #5e2ced;
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+/*================ prototype_service_info css ==============*/
+.prototype_service_area_two,.prototype_service_area_three{
+    overflow: hidden;
+}
+.prototype_service_info{
+    padding: 150px 0px 175px;
+    position: relative;
+    z-index: 0;
+}
+.p_service_info{
+    margin-bottom: -90px;
+}
+.p_service_item{
+    margin-bottom: 90px;
+    .icon{
+        box-sizing: content-box;
+        width: 55px;
+        height: 60px;
+        position: relative;
+        margin: 0px 0px 25px;
+        font-size: 24px;
+        -webkit-border-radius: 50% / 14%;
+        border-radius: 50% / 14%;
+        color: white;
+        text-align: center;
+        line-height: 64px;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        z-index: 1;
+        &:before {
+            box-sizing: content-box;
+            position: absolute;
+            content: "";
+            top: 10%;
+            right: -5.5%;
+            bottom: 10%;
+            left: -5%;
+            border: none;
+            -webkit-border-radius: 7% / 50%;
+            border-radius: 7% / 50%;
+            text-overflow: clip;
+            text-shadow: none;
+            z-index: -1;
+        }
+        &.icon_one{
+            background: #7142f8;
+            &:before{
+                background: #7142f8;
+            }
+        }
+        &.icon_two{
+            background: #5cbd2c;
+            &:before{
+                background: #5cbd2c;
+            }
+        }
+        &.icon_three{
+            background: #f38650;
+            &:before{
+                background: #f38650;
+            }
+        }
+        &.icon_four{
+            background: #ecbf24;
+            &:before{
+                background: #ecbf24;
+            }
+        }
+        &.icon_five{
+            background: #fa4c9a;
+            &:before{
+                background: #fa4c9a;
+            }
+        }
+        &.icon_six{
+            background: #35bfe7;
+            &:before{
+                background: #35bfe7;
+            }
+        }
+    }
+    h5{
+        font-size: 17px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+.symbols-pulse{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    > div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 23rem;
+        height: 23rem;
+        border-radius: 100%;
+        background-image: linear-gradient(-180deg, rgba(227,221,246,0.10) 0%, rgba(227,221,246,0.2) 65%, rgba(227,221,246,0.10) 100%);
+        z-index: -1;
+    }
+    .pulse-1 {
+        transform: translate(-50%, -50%) scale(0.67);
+    }
+    .pulse-2 {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+    .pulse-3 {
+        transform: translate(-50%, -50%) scale(1.63);
+    }
+    .pulse-4 {
+        transform: translate(-50%, -50%) scale(2.1);
+    }
+    .pulse-x{
+        will-change: transform;
+        animation: pulsate 3s infinite;
+    }
+}
+
+@keyframes pulsate{
+    0%{
+        opacity:1;
+        transform:translate(-50%, -50%) scale(0.5);
+    }
+    100%{
+        opacity:0;
+        transform:translate(-50%, -50%) scale(4);
+    }
+}
